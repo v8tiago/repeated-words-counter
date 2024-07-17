@@ -1,0 +1,56 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.header-input {
+	margin-right: 10px;
+}
+.word-count-header{
+    text-align: center;
+}
+
+.word-count-clear-button{
+    display: flex;
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+  }
+
+.word-count-clear-button:button {
+    flex-basis: 50%;
+  }
+
+.word-count-container {
+    padding-bottom: 25px;
+}
+
+.selected-word {
+    background-color: yellow; 
+}
+
+.word-count-item {
+    display: flex; /* Permite que os elementos filhos sejam dispostos em linha */
+    justify-content: center; /* Alinha o conteúdo horizontalmente no centro */
+    align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    width: 100%; /* Ocupa toda a largura da div pai */
+    padding: 10px; /* Adiciona padding ao redor do conteúdo */
+    cursor: pointer; /* Muda o cursor para a mão quando o mouse passa por cima */
+  }
+  
+  .word-count-button {
+    background-color: #eee; /* Cor de fundo do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Ajuste o padding para controlar o espaçamento do texto */
+    font-size: 16px; /* Tamanho da fonte do texto */
+    cursor: pointer; /* Muda o cursor para a mão quando o mouse passa por cima */
+    transition: background-color 0.3s ease; /* Define a transição de cor suave */
+  }
+  
+  .word-count-button:hover {
+    background-color: #ccc; /* Cor de fundo quando o mouse passa por cima */
+    font-weight: bold; /* Texto em negrito quando o mouse passa por cima */
+  }

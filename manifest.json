@@ -1,0 +1,10 @@
+{
+	"id": "repeated-words-counter",
+	"name": "Repeated Words Counter",
+	"version": "0.1.0",
+	"minAppVersion": "0.15.0",
+	"description": "Count the number of repeated words in the current note",
+	"author": "Tiago Arruda",
+	"authorUrl": "https://github.com/v8tiago",
+	"isDesktopOnly": false
+}
